@@ -2,7 +2,7 @@ $( function(){
     $('.iframe button').on('click', function(){
         var txt = $(this).text();
         if( txt == 'pc'){
-            $('iframe').css('width','1400')
+            $('iframe').css('width','1600')
             $('iframe').css('height','656')
         }else if( txt == 'tablet'){
             $('iframe').css('width','1000')
