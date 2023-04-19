@@ -51,8 +51,13 @@ body, html { background:#e3e3e3 }
 .port > div > h2 { padding:0 0 0 200px; font-size:50px; } 
 .port > div > div { padding:20px 0 0; } 
 .port .prt_main { width: 70%; overflow: hidden; transform: translate(25%); } 
-.port .prt_main li { display: inline-block; float:left; box-sizing: border-box; transform: translateX(-100%); } 
+.port .prt_main li {position:relative; display: inline-block; float:left; box-sizing: border-box; transform: translateX(-100%); } 
 .box3.active .port .prt_main li { transform: translateX(0); } 
+.port .prt_main li .prt_span { color:red; position:absolute; top:0; font-size:13px;}
+.port .prt_main li .prt_span.teamspan {top:30px; }
+.port .prt_main li .prt_span span { display: inline-block;transform: translateY(3px);}
+.prt_team.aniteamLi { padding: 30px 0 0;}
+.prt_1.publishing { padding: 30px 0 0;}
 .port .prt_main li a { display: inline-block; width:100%; /* max-width:800px; */ height:70px; color:#000; font-size:20px; font-weight: bold; background: #e3e3e3; line-height: 70px; text-align:left; border-bottom: 2px solid #8a8a8a; } 
 .prt_main > li > a .screen { position: relative; width:750px; height:70px; overflow: hidden; line-height:70px; } 
 .prt_main > li > a .screen .back { position: absolute; left:-100%; width:750px; height:70px; background: #000; opacity: 10%; } 
