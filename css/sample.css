@@ -18,7 +18,7 @@ body, html { cursor: url(../images/cursor4.png), auto }
 .iframe button:hover { font-weight: bold; border:1px solid #000 } 
 .iframe button img { width:30px; height:20px; } 
 .iframe button img.phone_img { width:17px; height:20px; } 
-.swiper-slide iframe { width:1400px; height: 800px; border: 1px solid #000; transition: .4s } 
+.swiper-slide iframe { width:1600px; height: 800px; border: 1px solid #000; transition: .4s } 
 .group { position: absolute; top:-10px; left:60%; z-index: 10 } 
 .group button { display:inline-block; width:70px; height:40px; margin: 10px 0 0; color:#888181; font-weight: bold; border:1px solid #da217e; border-radius: 5px; background:#fff; line-height: 40px; text-align: center; } 
 .group button:hover { color:#fff; font-weight: bold; background:#da217e } 
