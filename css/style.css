@@ -1,6 +1,6 @@
 body, html { background:#e3e3e3 } 
 .about_frame { width:100% !important; height:100% !important; position:absolute; right:0;}
-.menubackground { position: fixed; left: 0; width: 22%; height: 100%; background: #bbb; z-index: 1; } 
+.menubackground { position: fixed; left: 0; width: 22%; height: 100%; background: #000; z-index: 1; } 
 .menu { position: absolute; top: 50%; font-family: "GT Walsheim Pro Bold"; font-size: 20px; font-weight: bold; text-align: right; } 
 .menu ul li { padding: 5px 0 0; } 
 .menu a { color:#838383; font-size: 25px; font-weight: bold; } 
