@@ -29,6 +29,8 @@ body, html { background:#e3e3e3 }
 .right .port > div > .line { top:20px; } 
 .right .contact > div > .line { top:118px; } 
 
+.tech .react_i { }
+.tech { padding:0 0 0 5px;}
 
 .number { position: absolute; top: 0; } 
 .port .number { top:15px; } 
