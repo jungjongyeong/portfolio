@@ -16,9 +16,10 @@ body, html{ position: relative; height: 100%; cursor: url(../images/cursor4.png)
 
 /* iframe */
 
-.iframe { position: absolute; left:20%; top:-20px;; text-align: center; z-index: 10; background: #fff;}
-.iframe button { display:inline-block; width:100px; height:50px; border:none; transition: .1s; background: none; margin:10px 0 0;}
-.iframe button:hover { border:1px solid #000; font-weight: bold}
+.iframe { position: absolute; left:20%; top:-27px;; text-align: center; z-index: 9999; background: #fff;}
+.iframe button { display:inline-block; width:100px; height:50px; border:none; transition: .1s; background: none; margin:10px 0 0; font-weight: bold;}
+.iframe button:hover { border:1px solid #000; }
+
 .iframe button img { width:30px; height:20px;}
 .iframe button img.phone_img { width:17px; height:20px;}
 .swiper-slide iframe { width:1600px; height: 900px !important; border: 1px solid #000; transition: .4s}
@@ -27,3 +28,6 @@ body, html{ position: relative; height: 100%; cursor: url(../images/cursor4.png)
 .group button:hover { background:#626262; color:#fff; font-weight: bold}
 
 .popup { display: none;}
+
+.groupBtn {  display:inline-block; width:70px; font-size:13px; height:40px; line-height: 40px; text-align: center; color:#888181; background:#fff; border-radius: 5px; border:1px solid #626262;  margin: 10px 0 0;}
+.groupBtn:hover { background:#626262; color:#fff; font-weight: bold}
