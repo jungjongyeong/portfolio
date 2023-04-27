@@ -56,6 +56,8 @@
       -webkit-align-items: center;
       align-items: center;
     }
+    .githubBtn a { color:#888181}
+    .githubBtn:hover a{ color:#fff}
   </style>
 </head>
 
@@ -95,24 +97,18 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class="group">
+          <button class="group_1">서비스</button>
+          <button class="group_2">소개</button>
+          <a href="https://github.com/jungjongyeong/react_project" class="groupBtn">Github</a>
         </div>
         <div class="popup_start">
           <iframe src="https://whimsical-cucurucho-53c2ec.netlify.app/"></iframe>
         </div>
-      </div>
-      <div class="swiper-slide">
-        <iframe src="./list.html"></iframe>
-      </div>
-      <div class="swiper-slide">
-        <iframe src="./feedback.html"></iframe>
+        <div class="popup fade1">
+          <iframe src="./intro.html"></iframe>
+        </div>
       </div>
 
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
   </div>
 
   <!-- Swiper JS -->
@@ -120,7 +116,7 @@
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper('.swiper-container', {
+/*     var swiper = new Swiper('.swiper-container', {
       pagination: {
         el: '.swiper-pagination',
       },
@@ -130,7 +126,7 @@
       },
       touchRatio: 0,
     });
-  </script>
+ */  </script>
 </body>
 
 </html>
