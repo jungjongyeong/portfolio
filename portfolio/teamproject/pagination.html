@@ -46,6 +46,9 @@
       -webkit-align-items: center;
       align-items: center;
     }
+    .githubBtn a { color:#888181}
+    .githubBtn:hover a{ color:#fff}
+
   </style>
 </head>
 
@@ -84,23 +87,19 @@
     <div class="swiper-wrapper">
       <div class="swiper-slide">
         <div class="group">
+          <button class="group_1">서비스</button>
+          <button class="group_2">소개</button>
+          <a href="https://github.com/jungjongyeong/teamproject_boksabon" class="groupBtn">Github</a>
         </div>
         <div class="popup_start">
           <iframe src="https://dynamic-taiyaki-d5c50c.netlify.app"></iframe>
         </div>
+        <div class="popup fade1">
+          <iframe src="./intro.html"></iframe>
+        </div>
       </div>
-      <div class="swiper-slide">
-        <iframe src="./list.html"></iframe>
-      </div>
-      <div class="swiper-slide">
-        <iframe src="./feedback.html"></iframe>
-      </div>
-    </div>
-    <!-- Add Pagination -->
-    <div class="swiper-pagination"></div>
-    <!-- Add Arrows -->
-    <div class="swiper-button-next"></div>
-    <div class="swiper-button-prev"></div>
+
+  </div>
   </div>
 
   <!-- Swiper JS -->
