@@ -49,24 +49,6 @@ $( function(){
     });
 
 
-    $(window).on('scroll', function(){
-        var scroll = $(window).height() + $(window).scrollTop();
-        var offset1 = $('.section1').offset().top;
-        var offset2 = $('.section2').offset().top;
-        var offset3 = $('.section3').offset().top;
-        var offset4 = $('.section4').offset().top;
-        // console.log(offset4)
-        if( scroll > offset1 && scroll < offset2){
-            $('.section1').addClass('ani');
-        }else if( scroll > offset2 && scroll < offset3 ){
-            $('.section2').addClass('ani');
-        }else if( scroll > offset3 && scroll < offset4 ){
-            $('.section3').addClass('ani');
-        }else if( scroll > offset4){
-            $('.section4').addClass('ani');
-        }
-    });
-
 
     $('.p_list').on('click', function(){
         $(this).stop().toggleClass('ani')
