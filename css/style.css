@@ -43,9 +43,9 @@ body, html { background:#e3e3e3 }
 .cursor-follower.ani1 { display: block; background: url(https://user-images.githubusercontent.com/115339701/232716469-5c72c563-40a3-4b57-9441-0094a98924a6.gif) no-repeat center; background-size: cover; } 
 .cursor-follower.ani2 { display: block; background: url(https://user-images.githubusercontent.com/115339701/232715591-17972b76-d21f-41b9-a831-c05044c2ffd3.gif) no-repeat center; background-size: cover; } 
 .cursor-follower.ani3 { display: block; background: url(https://user-images.githubusercontent.com/115339701/232715853-d6e70ecb-5a3c-4f04-98b2-ec6b38244efe.gif) no-repeat center; background-size: cover; } 
-.cursor-follower.ani4 { display: block; background: url(https://user-images.githubusercontent.com/115339701/232717568-371c065b-6a8a-48cd-bfc3-ce2a55186c08.gif) no-repeat center; background-size: cover; } 
+.cursor-follower.ani4 { display: block; background: url(https://user-images.githubusercontent.com/115339701/281021455-fd9e9202-1273-4009-86fc-bfef436047e7.gif) no-repeat center; background-size: cover; } 
 .cursor-follower.ani5 { display: block; background: url(https://user-images.githubusercontent.com/115339701/232716080-5656c32f-0b53-4114-aa66-fb67fadce4a4.gif) no-repeat center; background-size: cover; } 
-.cursor-follower.ani6 { display: block; background: url(https://user-images.githubusercontent.com/115339701/232715061-fb6e4e05-0f07-45ac-8c81-ad02db8b1d0e.gif) no-repeat center; background-size: cover; } 
+.cursor-follower.ani6 { display: block; background: url(https://user-images.githubusercontent.com/115339701/281026135-f04ce64c-d530-4c20-9ae9-9ade7c85fe72.gif) no-repeat center; background-size: cover; } 
 .cursor-follower.ani7 { display: block; background: url(../images/visualG.png) no-repeat center; background-size: cover; } 
 
 .port { float:right; position: relative; top:10%; width:70%; z-index: 9999999999999999; } 
@@ -66,7 +66,7 @@ body, html { background:#e3e3e3 }
 .prt_main > li > a .screen .top { position: absolute; left:-100%; transition: .2s } 
 .prt_main > li > a .screen .righttxt { position: absolute; right:-100%; color:#8a8a8a; font-size:15px; transition: .2s; } 
 .prt_main > li > a:hover .screen .back { position: absolute; left:0; width:750px; height:100px; } 
-.prt_main > li > a:hover .screen .righttxt { position: absolute; right:15px; color:#000 } 
+.prt_main > li > a:hover .screen .righttxt { position: absolute; right:100px; color:#000 } 
 .prt_main > li > a:hover .screen .left { position: absolute; left:-100%; } 
 .prt_main > li > a:hover .screen .top { position: absolute; left:15px; font-size:18px; } 
 .port .prt_main li { display: block; } 
